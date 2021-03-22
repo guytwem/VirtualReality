@@ -1,0 +1,258 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 18363.1440; Version 1909; 64bit' Language: 'en' Physical Memory: 16304 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/guy.twemlow/Documents/GitHub/VirtualReality
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55421
+Successfully changed project path to: C:/Users/guy.twemlow/Documents/GitHub/VirtualReality
+C:/Users/guy.twemlow/Documents/GitHub/VirtualReality
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/guy.twemlow/Documents/GitHub/VirtualReality/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K2200  (ID=0x13ba)
+    Vendor:   
+    VRAM:     4035 MB
+    Driver:   10.18.13.5362
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001196 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.785 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1412 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1853.
+Total: 1.803500 ms (FindLiveObjects: 0.192800 ms CreateObjectMapping: 0.090000 ms MarkObjects: 1.403700 ms  DeleteObjects: 0.116200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.008463 seconds
+  Import took 0.010720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.593249 seconds.
+  path: Assets/VirtualReality
+  artifactKey: Guid(4612dce59d6293e44938968447178934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VirtualReality using Guid(4612dce59d6293e44938968447178934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565720d6434d266725caeb2a834f3c30') in 0.010006 seconds
+  Import took 0.012802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.685607 seconds.
+  path: Assets/VirtualReality/Prefabs
+  artifactKey: Guid(043fbd99a280764458d1f9cedee5cc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VirtualReality/Prefabs using Guid(043fbd99a280764458d1f9cedee5cc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fedf778ab2b61edeb41dbca21729c45') in 0.011330 seconds
+  Import took 0.013787 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002071 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 68.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1863.
+Total: 1.645400 ms (FindLiveObjects: 0.124800 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.440400 ms  DeleteObjects: 0.044700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1092.411485 seconds.
+  path: Assets/SteamVR
+  artifactKey: Guid(0e4d59a0dec9d394d89aa67aadec59e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR using Guid(0e4d59a0dec9d394d89aa67aadec59e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed599dd038d44fa74db673c989836410') in 0.011537 seconds
+  Import took 0.013926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.105803 seconds.
+  path: Assets/SteamVR/SteamVR.asmdef
+  artifactKey: Guid(1fbf338ef6b952a448262a7ff7df5fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/SteamVR.asmdef using Guid(1fbf338ef6b952a448262a7ff7df5fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31064ca7f0859e8587f293577d5cba97') in 0.024749 seconds
+  Import took 0.028288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.673768 seconds.
+  path: Assets/SteamVR/Prefabs
+  artifactKey: Guid(3e2543c4beea3eb4e9ea1e02a4bc2df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs using Guid(3e2543c4beea3eb4e9ea1e02a4bc2df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2215cd955987d740c6c4aa90b1101bd0') in 0.009041 seconds
+  Import took 0.011299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084322 seconds.
+  path: Assets/SteamVR/Prefabs/[CameraRig].prefab
+  artifactKey: Guid(4d293c8e162f3874b982baadd71153d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[CameraRig].prefab using Guid(4d293c8e162f3874b982baadd71153d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073f5829ee5f10f8a6da1cbe2d7f7ae7') in 0.059640 seconds
+  Import took 0.062163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_right_model_slim.prefab
+  artifactKey: Guid(6def53d002137b747aec0b29551e0e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_right_model_slim.prefab using Guid(6def53d002137b747aec0b29551e0e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf9289187e7d7cb7d8ab5816005bd75') in 0.403706 seconds
+  Import took 0.406406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_floppy_left.prefab
+  artifactKey: Guid(85d52d9937d11064295294895b28d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_floppy_left.prefab using Guid(85d52d9937d11064295294895b28d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6615a56220c4534dfb9076f0157dd5') in 0.265850 seconds
+  Import took 0.268529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_alien_left.prefab
+  artifactKey: Guid(78cacad1b5fb93349a980d2189b52b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_alien_left.prefab using Guid(78cacad1b5fb93349a980d2189b52b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e465a6faa0375d595b070a1d6723fd3') in 0.291554 seconds
+  Import took 0.294100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_right.prefab
+  artifactKey: Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_right.prefab using Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba660c7b06076960737a5c7e7e78ecd') in 0.028455 seconds
+  Import took 0.031940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_floppy_right.prefab
+  artifactKey: Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_floppy_right.prefab using Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9145ecf237efd095e06bad867ba9cd21') in 0.033607 seconds
+  Import took 0.036567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/SteamVR/Prefabs/[SteamVR].prefab
+  artifactKey: Guid(4f35fa249b5008c44ac2998be6f82d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[SteamVR].prefab using Guid(4f35fa249b5008c44ac2998be6f82d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414e6657bf1627a0cc3911a88402442b') in 0.009244 seconds
+  Import took 0.012009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_alien_right.prefab
+  artifactKey: Guid(a2330dd3e2bcb44428f727270af1d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_alien_right.prefab using Guid(a2330dd3e2bcb44428f727270af1d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e8a40057e13ec32d3cb799feb12a2c') in 0.029105 seconds
+  Import took 0.032695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_left_model_slim.prefab
+  artifactKey: Guid(638779290bce1af49b356f33dcc6fccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_left_model_slim.prefab using Guid(638779290bce1af49b356f33dcc6fccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808d3d8eee5f0c66ccdb548214c1c771') in 0.029374 seconds
+  Import took 0.033079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_left.prefab
+  artifactKey: Guid(057574477c20401448aba7c848873712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_left.prefab using Guid(057574477c20401448aba7c848873712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193f63bdfa0598ff4f4157f521b8393e') in 0.027129 seconds
+  Import took 0.031347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/SteamVR/Prefabs/controller.prefab
+  artifactKey: Guid(e789c2cc0c98a4c4198a4033fb8ccf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/controller.prefab using Guid(e789c2cc0c98a4c4198a4033fb8ccf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8a892d4f0071f51bf23b9a6ace461d') in 0.007728 seconds
+  Import took 0.010686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/SteamVR/Prefabs/[Status].prefab
+  artifactKey: Guid(255333d57084e4e46b3d948279746a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[Status].prefab using Guid(255333d57084e4e46b3d948279746a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49942b95c6f2cf84b2495990e05bc448') in 0.015222 seconds
+  Import took 0.017744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.647830 seconds.
+  path: Assets/VirtualReality/Prefabs/VR Camera Rig.prefab
+  artifactKey: Guid(509a5f59510bd5c4ebc4fe31a37d71dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VirtualReality/Prefabs/VR Camera Rig.prefab using Guid(509a5f59510bd5c4ebc4fe31a37d71dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9319344cc1abbed043cb1beb69d7b9') in 0.028441 seconds
+  Import took 0.031758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025521 seconds.
+  path: Assets/VirtualReality/Prefabs/VR Camera Rig.prefab
+  artifactKey: Guid(509a5f59510bd5c4ebc4fe31a37d71dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VirtualReality/Prefabs/VR Camera Rig.prefab using Guid(509a5f59510bd5c4ebc4fe31a37d71dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9319344cc1abbed043cb1beb69d7b9') in 0.024098 seconds
+  Import took 0.027012 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
