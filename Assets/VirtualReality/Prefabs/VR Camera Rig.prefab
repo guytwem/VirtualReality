@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4827230105859570234}
   - component: {fileID: 4827230105859570235}
+  - component: {fileID: 2858111397685180626}
+  - component: {fileID: 618239240347525432}
   m_Layer: 0
   m_Name: Controller Right
   m_TagString: Untagged
@@ -65,6 +67,72 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   broadcastDeviceChanges: 1
+--- !u!114 &2858111397685180626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4827230105859570229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98cd468a35aaed478e1045d75d49458, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointer:
+    actionPath: /actions/default/in/Pointer
+    needsReinit: 0
+  teleport:
+    actionPath: /actions/default/in/Teleport
+    needsReinit: 0
+  use:
+    actionPath: /actions/default/in/Interact
+    needsReinit: 0
+  grab:
+    actionPath: /actions/default/in/Grab
+    needsReinit: 0
+  touchpadAxis:
+    actionPath: /actions/default/in/TouchpadAxis
+    needsReinit: 0
+  onPointerPressed:
+    m_PersistentCalls:
+      m_Calls: []
+  onPointerReleased:
+    m_PersistentCalls:
+      m_Calls: []
+  onTeleportPressed:
+    m_PersistentCalls:
+      m_Calls: []
+  onTeleportReleased:
+    m_PersistentCalls:
+      m_Calls: []
+  onUsePressed:
+    m_PersistentCalls:
+      m_Calls: []
+  onUseReleased:
+    m_PersistentCalls:
+      m_Calls: []
+  onGrabPressed:
+    m_PersistentCalls:
+      m_Calls: []
+  onGrabReleased:
+    m_PersistentCalls:
+      m_Calls: []
+  onTouchpadAxisChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &618239240347525432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4827230105859570229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5dda86078d7474eba25629fd1f43a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4827230106102404949
 GameObject:
   m_ObjectHideFlags: 0
@@ -77,6 +145,7 @@ GameObject:
   - component: {fileID: 4827230106102404952}
   - component: {fileID: 4827230106102404955}
   - component: {fileID: 4827230106102404954}
+  - component: {fileID: 2264761431047979441}
   m_Layer: 0
   m_Name: VR Camera Rig
   m_TagString: Untagged
@@ -177,6 +246,22 @@ MonoBehaviour:
   - {x: -2.15, y: 0.01, z: -1.65}
   - {x: -2.15, y: 0.01, z: 1.65}
   - {x: 2.15, y: 0.01, z: 1.65}
+--- !u!114 &2264761431047979441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4827230106102404949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69750db40aaa5de4b8fa06f904328ea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftController: {fileID: 4827230106427430567}
+  rightController: {fileID: 4827230105859570234}
+  headset: {fileID: 4827230106801968302}
+  playArea: {fileID: 4827230106102404953}
 --- !u!1 &4827230106427430566
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,6 +272,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4827230106427430567}
   - component: {fileID: 4827230106427430564}
+  - component: {fileID: 6962608573516078823}
+  - component: {fileID: 5898572681987257207}
   m_Layer: 0
   m_Name: Controller Left
   m_TagString: Untagged
@@ -242,6 +329,72 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   broadcastDeviceChanges: 1
+--- !u!114 &6962608573516078823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4827230106427430566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98cd468a35aaed478e1045d75d49458, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointer:
+    actionPath: /actions/default/in/Pointer
+    needsReinit: 0
+  teleport:
+    actionPath: /actions/default/in/Teleport
+    needsReinit: 0
+  use:
+    actionPath: /actions/default/in/Interact
+    needsReinit: 0
+  grab:
+    actionPath: /actions/default/in/Grab
+    needsReinit: 0
+  touchpadAxis:
+    actionPath: /actions/default/in/TouchpadAxis
+    needsReinit: 0
+  onPointerPressed:
+    m_PersistentCalls:
+      m_Calls: []
+  onPointerReleased:
+    m_PersistentCalls:
+      m_Calls: []
+  onTeleportPressed:
+    m_PersistentCalls:
+      m_Calls: []
+  onTeleportReleased:
+    m_PersistentCalls:
+      m_Calls: []
+  onUsePressed:
+    m_PersistentCalls:
+      m_Calls: []
+  onUseReleased:
+    m_PersistentCalls:
+      m_Calls: []
+  onGrabPressed:
+    m_PersistentCalls:
+      m_Calls: []
+  onGrabReleased:
+    m_PersistentCalls:
+      m_Calls: []
+  onTouchpadAxisChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &5898572681987257207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4827230106427430566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5dda86078d7474eba25629fd1f43a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4827230106801968297
 GameObject:
   m_ObjectHideFlags: 0
